@@ -47,11 +47,10 @@ h2 {
     animation: fadeIn 1s ease-out forwards;
 }
 
-@media screen and (max-width: 400px) {
-  .container {
-    width: 90%;
-    color: #FF0000
-  }
+@media screen and (max-width: 415px) {
+    .container {
+        width: 80%;
+    }
 }
 
 @keyframes fadeInAndUp {
