@@ -1,0 +1,75 @@
+:root {
+    --font-family-accent: 'Space Mono';
+    --font-family-headline: 'Space Grotesk';
+    --font-family-body: 'Inter';
+    --font-family-monospace: 'Space Mono';
+    --font-family-alt: 'Courier New';
+    --font-size-small: 10px;
+    --font-size-large: 18px;
+    --font-weight-light: 100;
+    --default-padding: 15px
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #1A1A1A;
+    color: #e8e5cc;
+    font-family: var(--font-family-body);
+    font-size: var(--font-size-large);
+    font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: var(--font-family-headline);
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+.container {
+    /* border: 2px dotted #FFFFFF; */
+    padding: 20px;
+    text-align: center;
+
+    margin: 150px auto 150px auto;
+    max-width: 95%;
+    width: 500px;
+
+    animation: fadeIn 1s ease-out forwards;
+}
+
+@media screen and (max-width: 400px) {
+  .container {
+    width: 90%;
+    color: #FF0000
+  }
+}
+
+@keyframes fadeInAndUp {
+    from {
+        transform: translateY(15vh);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
