@@ -1,9 +1,13 @@
 .container {    
+
+    text-align: center;
+
     .img-load {
         width: 100%;
         height: auto;
         outline: solid 6px #e8e5cc;
         outline-offset: -6px;
+        margin-top: 150px;
     }
 
     .name {
@@ -67,6 +71,5 @@
             fill: gray;
         }
     }
-
 }
 

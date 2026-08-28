@@ -1,3 +1,4 @@
+/* Specific Item Changes */
 :root {
     --font-family-accent: 'Space Mono';
     --font-family-headline: 'Space Grotesk';
@@ -35,12 +36,14 @@ h2 {
     text-align: center;
 }
 
+/* Boiler Plate Stuff */
 .container {
     /* border: 2px dotted #FFFFFF; */
     padding: 20px;
-    text-align: center;
+    /* text-align: center; */
 
-    margin: 150px auto 150px auto;
+    /* margin: 150px auto 150px auto; */
+    margin: auto;
     max-width: 95%;
     width: 500px;
 
