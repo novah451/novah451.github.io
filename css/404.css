@@ -1,0 +1,39 @@
+.container {
+    text-align: center;
+
+    .img-load-404 {
+        width: 25%;
+        height: auto;
+        /* outline: solid 6px #e8e5cc; */
+        /* outline-offset: -6px; */
+        margin-top: 150px;
+    }
+
+    .quote {
+        margin-top: 8px;
+        font-size: 10px;
+        font-style: italic;
+    }
+
+    .index-buttons {
+        margin-top: 36px;
+        font-size: 12px;
+
+        a {
+            background-color: transparent;
+            border: none;
+            color: #c3744d;
+            margin: 5px;
+            text-decoration: underline dotted;
+            /* text-decoration: none; */
+            transition: 0.3s;
+        }
+
+        a:hover {
+            background-color: #c3744dbc;
+            border: none;
+            color: #e8e5cc;
+            text-decoration: underline dotted 1px #e8e5cc;
+        }
+    }
+}
